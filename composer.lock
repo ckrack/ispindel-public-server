@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c28e1939ebe03779551a021951efa676",
+    "content-hash": "fdebeae18e14c2b26a1fabe84e286431",
     "packages": [
         {
             "name": "beberlei/doctrineextensions",
@@ -1991,33 +1991,32 @@
         },
         {
             "name": "jenssegers/optimus",
-            "version": "v0.2.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jenssegers/optimus.git",
-                "reference": "9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af"
+                "reference": "e7f95de8dd6aff4a67f05e2d8bcc72c389bf68dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af",
-                "reference": "9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af",
+                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/e7f95de8dd6aff4a67f05e2d8bcc72c389bf68dd",
+                "reference": "e7f95de8dd6aff4a67f05e2d8bcc72c389bf68dd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=7.0.0",
+                "phpseclib/phpseclib": "^2.0",
+                "symfony/console": "^3.0|^4.0|^5.0"
             },
             "require-dev": {
-                "kherge/box": "^2.7",
-                "phpseclib/phpseclib": "^2.0",
-                "phpunit/phpunit": "^4.0|^5.0",
-                "satooshi/php-coveralls": "^1.0",
-                "symfony/console": "^2.6|^3.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^6.0|^7.0|^8.0"
             },
             "suggest": {
                 "ext-gmp": "Required for 32bit systems"
             },
             "bin": [
-                "optimus"
+                "bin/optimus"
             ],
             "type": "library",
             "autoload": {
@@ -2044,7 +2043,17 @@
                 "obfuscation",
                 "optimus"
             ],
-            "time": "2017-04-21T10:14:58+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/jenssegers",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/jenssegersoptimus",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-06T08:26:18+00:00"
         },
         {
             "name": "knplabs/doctrine-behaviors",
