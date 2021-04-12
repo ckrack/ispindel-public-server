@@ -52,7 +52,7 @@
         "nesbot/carbon": "^2.28",
         "composer/package-versions-deprecated": "^1.8",
         "doctrine/doctrine-bundle": "^2.1",
-        "doctrine/doctrine-migrations-bundle": "^2.1",
+        "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.7",
         "symfony/phpunit-bridge": "^5.1"
     },
